@@ -1,20 +1,54 @@
-body{
-   margin-top: 10%;
-  background-color: #222022;
+body {
+    margin-top: 10%;
+    background-color: #222022;
 }
 
-.black-bg{
-  background-color: #222022;
+.black-bg {
+    background-color: #222022;
 }
+
 #quote {
-  color: #efedef
+    color: black;
+    font-size: 150%;
 }
 
 #author {
-  color: #ceccce;
+    color: black;
+    font-size: 150%;
 }
 
-.btn-outline-success {
-  color: #6ead3a;
-  border: 1px solid #6ead3a;
+
+
+.quote-box {
+    background-color: #efedef;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+        padding-left: 10px;
 }
+
+.button-box {
+    margin-top: 20px;
+}
+
+.author-box {
+    background-color: #efedef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-default {
+        background-color: #efedef;
+        color: #333;
+        border-radius: 0px;
+    }
+    .btn-default:hover,
+    .btn-default:focus,
+    .btn-default:active    {
+        background-color: #222022;
+        color: #efedef;
+    }
+    

@@ -14,7 +14,7 @@ function getQuote(){
     data: "method=getQuote&format=jsonp&lang=en&jsonp=?",
     success: function(data){
       $("#quote").text('"'+data.quoteText+'"');
-      $("#author").text("-"+data.quoteAuthor);
+      $("#author").text(data.quoteAuthor + ':');
     }
   });
 }
