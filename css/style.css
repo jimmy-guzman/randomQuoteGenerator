@@ -10,12 +10,14 @@ body {
 #quote {
     color: black;
     font-size: 175%;
+    font-family: 'Old Standard TT', serif;
 }
 
 #author {
     color: black;
     font-size: 125%;
      font-style: italic;
+    font-family: 'Old Standard TT', serif;
 }
 
 .box {
@@ -46,13 +48,15 @@ body {
 
 .btn-default {
         background-color: #efedef;
-        color: #333;
+        color: black;
         border-radius: 0px;
+    font-family: 'Old Standard TT', serif;
     }
     .btn-default:hover,
     .btn-default:focus,
     .btn-default:active    {
         background-color: #222022;
         color: #efedef;
+        font-family: 'Old Standard TT', serif;
     }
     
