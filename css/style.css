@@ -52,7 +52,7 @@ body {
   font-family: 'Old Standard TT', serif;
 }
 
-.btn-default:hover, .btn-default:focus, .btn-default:active {
+.btn-default:hover {
   background-color: #222022;
   color: #efedef;
   font-family: 'Old Standard TT', serif;
