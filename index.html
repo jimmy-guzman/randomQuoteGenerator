@@ -1,58 +1,47 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random-Quote-Generator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random-Quote-Generator</title>
 
-
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
-
-    <link rel="stylesheet" href="css/style.css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
-
-
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
 </head>
 
 <body>
-
-    <
-        <div class="container-fluid text-center ">
-
-            <div class="box">
-                <div class="quote-box">
-
-                    <div id="quote" class="text-right">
-                        <p id="quote"></p>
-                    </div>
-
-                    <div id="author-bank" class="text-right">
-                        <p id="author"></p>
-                    </div>
-
-                </div>
-
-                <div class="row button-box">
-                    <div class="col-6">
-                        <button id ="tweetQuote" type="button" class="btn btn-default btn-block">Tweet</button>
-                    </div>
-
-                    <div class="col-6">
-                        <button id="get-quote" type="button" class="btn btn-default btn-block">New Quote</button>
-                    </div>
-                </div>
-            </div>
+<div class="container">
+  <div class="row text-center h-100">
+    <div class="box col-12 my-auto">
+      <div class="quote-box mx-auto">
+        <div class="text-right">
+          <p id="quote"></p>
         </div>
 
-    </body>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+        <div id="author-bank" class="text-right">
+          <p id="author"></p>
+        </div>
 
-    <script src="js/index.js"></script>
+      </div>
 
+      <div class=" row button-box h-100">
+        <div class="col-6 my-auto">
+          <button id="tweetQuote" type="button" class="btn btn-default btn-block">Tweet</button>
+        </div>
 
+        <div class="col-6">
+          <button id="get-quote" type="button" class="btn btn-default btn-block">New Quote</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
+
+</body>
 
 </html>
