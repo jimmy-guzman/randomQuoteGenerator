@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+html, body, .container {
+    height: 100%;
+    background-color: #222022;
+    font-family: 'Old Standard TT', serif;
+    color: #222022;
+}
+
+#quoteText {
+  font-size: 175%;
+}
+
+#quoteAuthor {
+  font-size: 125%;
+  font-style: italic;
+}
+
+.quote-box {
+  background-color: #efedef;
+  padding: 1em;
+}
+
+.button-box {
+  margin-top: 1em;
+}
+
+.btn-default {
+  background-color: #efedef;
+  color: #222022;
+  border-radius: 0px;
+  font-family: 'Old Standard TT', serif;
+  border: 1px solid #efedef;
+  outline: none;
+}
+
+.btn-default:hover {
+  background-color: #222022;
+  color: #efedef;
+  font-family: 'Old Standard TT', serif;
+  outline: none;
+}
