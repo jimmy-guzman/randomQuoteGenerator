@@ -1,5 +1,5 @@
 # Random Quote Generator
-## freeCodeCamp Advanced Front End Project
+## freeCodeCamp Intermediate Front End Project
 ## [Live Demo](https://jimmy-guzman.github.io/randomquotegenerator/)
 ### Made with: 
 * HTML
